@@ -181,8 +181,31 @@ footer {
     -2px 0 8px rgba(255, 255, 255, 0.5);
 }
 
+.volumes {
+    display: flex;
+    gap: 2em;
+}
+
+.volumes a:hover {
+  color: #fff;
+  text-shadow:
+    0 0 6px rgba(255, 255, 255, 0.7),
+    2px 0 8px rgba(255, 255, 255, 0.5),
+    -2px 0 8px rgba(255, 255, 255, 0.5);
+}
+
 .locked {
-    opacity: 15%;
+    opacity: 20%;
+}
+
+.shake {
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-5px); }
+  40%, 80% { transform: translateX(5px); }
 }
 
 .separator {

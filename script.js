@@ -3,7 +3,7 @@ import { interiors } from "./data.js";
 document.addEventListener("DOMContentLoaded", function() {
     const cursor = document.querySelector(".cursor");
     const gallery = document.querySelector(".gallery");
-    const numberOfItems = 4;
+    const numberOfItems = 6;
     const radius = 1100;
     const centerX = window.innerWidth / 2;
     const centerY = window.innerHeight / 2;
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const titleSlug = interiors[i].name.toLowerCase().replace(/\s+/g, '-');
         a.href = `./novels/${titleSlug}.html`;
         a.classList.add("story-link");
-        count.textContent = `(${Math.floor(Math.random() * 4) + 1}]`;
+        count.textContent = `(${Math.floor(Math.random() * 6) + 1}]`;
         item.appendChild(a);
         // p.appendChild(count); #removed visual for assigned #.
         gallery.appendChild(item);
