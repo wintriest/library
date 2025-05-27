@@ -35,5 +35,5 @@ export default [
   "“I… <i>ugh…</i> mind your own business.”",
   "“It should be me saying that, just focus on your paper and answer quickly, you can do it if you rush.”",
   "It intrigued yet annoyed me by how casual he’s acting. My eyes once again landed on his page and it was filled to the brim with answers. While mine sat.. collecting dust instead of answers.",
-  "<i>How annoying…</i>"
+  "<i>How annoying…</i>",
 ];
